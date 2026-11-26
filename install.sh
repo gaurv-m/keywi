@@ -11,8 +11,9 @@ case ${1:-install} in
     target="$bindir/keywi"
     if [ -L "$target" ]; then fail 'refusing to uninstall a symbolic link'; fi
     if [ ! -f "$target" ]; then fail "no installation at $target"; fi
-    # Validate before removal; never recursively remove user data or directories.
-    "$target" --version 2>/dev/null | awk '/^keywi / { found=1 } END { exit !found }' || fail 'target is not a Keywi binary'
+    # Inspect without executing; remove only the expected file.
+    command -v grep >/dev/null 2>&1 || fail 'required tool missing: grep'
+    LC_ALL=C grep -aFq 'github.com/gaurv-m/keywi' "$target" || fail 'target is not a Keywi binary'
     rm -- "$target"
     printf 'Removed %s. Preferences and history were preserved.\n' "$target"
     exit 0 ;;
@@ -74,12 +75,12 @@ if [ "$bindir" = "$HOME/.local/bin" ]; then
     */bash|bash) profile="$HOME/.bashrc" ;;
   esac
 fi
-pathline='export PATH="$HOME/.local/bin:$PATH"'
+pathline="export PATH=\"\$HOME/.local/bin:\$PATH\""
 if [ -n "$profile" ] && [ ! -L "$profile" ]; then
   if [ ! -f "$profile" ] || ! awk -v line="$pathline" '$0==line {found=1} END {exit !found}' "$profile"; then
     printf '\n%s\n' "$pathline" >> "$profile" || fail "cannot update $profile"
   fi
   printf 'Open a new terminal, then run: keywi\n'
 else
-  printf 'Add to your shell profile:\n  export PATH="%s:$PATH"\n' "$bindir"
+  printf 'Add to your shell profile:\n  export PATH="%s:%s"\n' "$bindir" "\$PATH"
 fi

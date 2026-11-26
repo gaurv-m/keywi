@@ -18,12 +18,17 @@ const lockFormat = "keywi-advisory-lock"
 // Lock holds a kernel lock. Keep its inode in place.
 func (s *Store) Lock() (func(), error) {
 	path := filepath.Join(s.DataDir, "session.lock")
-	f, err := os.OpenFile(path, os.O_CREATE|os.O_RDWR, 0600)
+	f, err := openRegular(path, os.O_CREATE|os.O_RDWR, 0600)
 	if err != nil {
 		return nil, fmt.Errorf("cannot open session lock: %w", err)
 	}
+	var info unix.Stat_t
+	if err = unix.Fstat(int(f.Fd()), &info); err != nil || info.Nlink != 1 {
+		_ = f.Close()
+		return nil, fmt.Errorf("cannot use linked session lock: %w", errUnsafeStorage)
+	}
 	if err = unix.Flock(int(f.Fd()), unix.LOCK_EX|unix.LOCK_NB); err != nil {
-		f.Close()
+		_ = f.Close()
 		if errors.Is(err, unix.EWOULDBLOCK) || errors.Is(err, unix.EAGAIN) {
 			return nil, fmt.Errorf("another Keywi instance is running; close it before starting a new one")
 		}
@@ -32,7 +37,7 @@ func (s *Store) Lock() (func(), error) {
 	ready := false
 	defer func() {
 		if !ready {
-			f.Close()
+			_ = f.Close()
 		}
 	}()
 

@@ -62,8 +62,9 @@ func BlitzStage(current *typing.Tracker, previous string, age time.Duration, wid
 	}
 	for y := range rows {
 		if y >= 1 && y <= 3 && lengths[y-1] > 0 {
-			end := origin + lengths[y-1]
-			rows[y] = render(cells[y][:origin]) + raw[y-1] + render(cells[y][end:])
+			start := min(origin, len(cells[y]))
+			end := min(origin+lengths[y-1], len(cells[y]))
+			rows[y] = render(cells[y][:start]) + raw[y-1] + render(cells[y][end:])
 		} else {
 			rows[y] = render(cells[y])
 		}

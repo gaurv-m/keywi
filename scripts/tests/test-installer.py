@@ -45,7 +45,7 @@ shutil.copyfile(source,args[args.index('-o')+1])
 
     def archive(self, system="darwin", arch="arm64", symlink=False):
         name = f"keywi_{system}_{arch}.tar.gz"
-        binary = b'#!/bin/sh\necho "keywi 1.0.0 (test)"\n'
+        binary = b'#!/bin/sh\n# github.com/gaurv-m/keywi\necho "keywi 1.0.0 (test)"\n'
         with tarfile.open(self.release / name, "w:gz") as tar:
             info = tarfile.TarInfo("keywi")
             info.mode = 0o755

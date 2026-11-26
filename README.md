@@ -14,6 +14,14 @@ Open a new terminal, then run:
 keywi
 ```
 
+## Uninstall
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/gaurv-m/keywi/main/install.sh | sh -s -- uninstall
+```
+
+Your settings and scores stay saved.
+
 ![KeyWi](assets/images/logo.png)
 
 I had some free time, so I made KeyWi, a simple typing game for the terminal.

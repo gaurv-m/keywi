@@ -57,6 +57,9 @@ func Draw(points []Point, width, height int, options Options, style Styles) stri
 	if xmax <= xmin {
 		xmax = xmin + 1
 	}
+	if span := xmax - xmin; !finite(span) || span <= 0 {
+		return "Graph values out of range"
+	}
 	average := ""
 	reference := 0.0
 	if options.Average != nil && finite(*options.Average) && *options.Average >= 0 {
@@ -67,6 +70,9 @@ func Draw(points []Point, width, height int, options Options, style Styles) stri
 	rows := height - 2
 	step := max(1, niceStep(max(1, ymax)/float64(min(3, rows-1))))
 	ymax = math.Ceil(max(1, ymax)/step) * step
+	if !finite(step) || step <= 0 || !finite(ymax) {
+		return "Graph values out of range"
+	}
 	labelWidth := max(3, len(number(ymax, false)))
 	prefix := labelWidth + 2
 	referenceWidth := 0
@@ -83,7 +89,11 @@ func Draw(points []Point, width, height int, options Options, style Styles) stri
 	ypixel := func(value float64) int { return rows*4 - 1 - int(math.Round(value/ymax*float64(rows*4-1))) }
 	labels := make(map[int]string)
 	guides := make(map[int]bool)
-	for v := 0.0; v <= ymax+step/100; v += step {
+	for tick := 0; tick <= 4; tick++ {
+		v := float64(tick) * step
+		if !finite(v) || v > ymax+step/100 {
+			break
+		}
 		row := max(0, min(rows-1, ypixel(v)/4))
 		labels[row] = number(v, false)
 		if v > 0 && v < ymax {

@@ -104,3 +104,8 @@ func TestColoredShatterOutputStaysBounded(t *testing.T) {
 		}
 	}
 }
+
+func TestShatterDoesNotPanicForWideGlyphInNarrowStage(t *testing.T) {
+	current := typing.New("界")
+	BlitzStage(&current, "a", 100*time.Millisecond, 1, "block", theme.New("kiwi"), true)
+}

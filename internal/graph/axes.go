@@ -60,7 +60,7 @@ func xTicks(xmin, xmax float64, cols int, unit string) []tick {
 		return text
 	}
 	makeTick := func(value float64, last bool) tick {
-		position := int(math.Round((value - xmin) / (xmax - xmin) * float64(cols-1)))
+		position := max(0, min(cols-1, int(math.Round((value-xmin)/(xmax-xmin)*float64(cols-1)))))
 		text := label(value, last)
 		start := max(0, min(cols-len(text), position-len(text)/2))
 		return tick{position, start, text}
@@ -83,7 +83,12 @@ func xTicks(xmin, xmax float64, cols int, unit string) []tick {
 	}
 	add(makeTick(xmin, false))
 	add(makeTick(xmax, true))
-	for value := math.Ceil(xmin/step) * step; value < xmax; value += step {
+	first := math.Ceil(xmin/step) * step
+	for i := 0; i <= count+2; i++ {
+		value := first + float64(i)*step
+		if !finite(value) || value >= xmax {
+			break
+		}
 		if value > xmin {
 			add(makeTick(value, false))
 		}

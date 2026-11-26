@@ -127,6 +127,9 @@ func OpenAt(config, data string) (*Store, []string, error) {
 		if err == nil || errors.Is(err, os.ErrNotExist) {
 			continue
 		}
+		if errors.Is(err, errUnsafeStorage) || errors.Is(err, errStorageLimit) {
+			return nil, warnings, err
+		}
 		// Preserve every byte before recovery. Failure to preserve is a hard error.
 		backup := entry.path + ".corrupt-" + time.Now().UTC().Format("20060102T150405.000000000")
 		if e := os.Rename(entry.path, backup); e != nil {
@@ -147,12 +150,7 @@ func OpenAt(config, data string) (*Store, []string, error) {
 	return s, warnings, nil
 }
 func read(path string, v any) error {
-	f, err := os.Open(path)
-	if err != nil {
-		return err
-	}
-	defer f.Close()
-	raw, err := io.ReadAll(f)
+	raw, err := readFile(path, storageLimit(v))
 	if err != nil {
 		return err
 	}
@@ -181,6 +179,9 @@ func atomic(path string, v any) error {
 		return err
 	}
 	b = append(b, '\n')
+	if int64(len(b)) > storageLimit(v) {
+		return fmt.Errorf("%w: %s", errStorageLimit, path)
+	}
 	f, err := os.CreateTemp(filepath.Dir(path), ".keywi-*")
 	if err != nil {
 		return err
@@ -231,11 +232,23 @@ func (s *Store) Reset() (string, error) {
 	backup := ""
 	if len(s.Data.Results) > 0 {
 		backup = s.dataPath() + ".reset-" + time.Now().UTC().Format("20060102T150405.000000000")
-		src, e := os.ReadFile(s.dataPath())
+		src, e := readFile(s.dataPath(), maxHistoryBytes)
 		if e != nil {
 			return "", e
 		}
-		if e = os.WriteFile(backup, src, 0600); e != nil {
+		f, e := os.OpenFile(backup, os.O_WRONLY|os.O_CREATE|os.O_EXCL, 0600)
+		if e != nil {
+			return "", e
+		}
+		_, e = f.Write(src)
+		if e == nil {
+			e = f.Sync()
+		}
+		closeErr := f.Close()
+		if e == nil {
+			e = closeErr
+		}
+		if e != nil {
 			return "", e
 		}
 	}
