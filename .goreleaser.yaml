@@ -1,0 +1,28 @@
+version: 2
+project_name: keywi
+before:
+  hooks:
+    - go mod download
+builds:
+  - id: keywi
+    main: .
+    binary: keywi
+    env: [CGO_ENABLED=0]
+    goos: [darwin, linux]
+    goarch: [amd64, arm64]
+    flags: [-trimpath]
+    ldflags:
+      - -s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.buildID={{.Date}}
+archives:
+  - formats: [tar.gz]
+    name_template: 'keywi_{{ .Os }}_{{ .Arch }}'
+    files:
+      - LICENSE
+      - third_party/licenses/*
+checksum:
+  name_template: checksums.txt
+  algorithm: sha256
+changelog:
+  disable: true
+release:
+  prerelease: auto

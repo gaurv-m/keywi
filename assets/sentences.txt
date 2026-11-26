@@ -1,0 +1,323 @@
+1|The warm wind moves the leaves.
+1|A small boat rests by the shore.
+1|We watch the sun rise over the sea.
+1|The path leads to a quiet garden.
+1|Soft rain falls on the open field.
+1|A bird sings in the tall tree.
+1|The moon shines on the still lake.
+1|I turn a page and read a line.
+1|The waves carry a silver shell.
+1|We walk home under a clear sky.
+1|A light breeze fills the white sail.
+1|The green hills meet the blue sky.
+1|Our hands rest beside the keys.
+1|The old bridge crosses the stream.
+1|Fresh leaves grow after the rain.
+1|A warm cup waits by the window.
+1|The sand feels cool at dawn.
+1|Small seeds grow in the dark soil.
+1|The garden gate is open today.
+2|A narrow path winds between the hills before it reaches the village.
+2|The afternoon light falls across the pages of an open book.
+2|We carried our small wooden boat down to the edge of the water.
+2|After the rain, every leaf in the garden seemed a little brighter.
+2|The old path curves around a grove of palms beside the beach.
+2|A distant lighthouse sends a steady beam across the dark sea.
+2|We listened to the soft sound of waves beneath the bridge.
+2|Morning clouds drift slowly toward the mountains in the north.
+2|The first warm day of spring brought everyone into the garden.
+2|A line of tiny footprints follows the tide along the shore.
+2|Our neighbor planted a row of flowers beside the narrow road.
+2|The moon rose above the trees while the town fell asleep.
+2|An empty boat turned gently in the current near the island.
+2|The breeze lifted a corner of the map resting on the table.
+2|A small stream crosses the trail just beyond the wooden gate.
+2|We found a peaceful place to rest beneath the spreading branches.
+3|Before sunset, Mira asked, "Shall we take the longer path?"
+3|The sign read: North Beach, River Trail, and Old Harbor.
+3|"Wait," said Ellis, "the tide has not reached the steps yet."
+3|On Tuesday, we packed three things: a map, a notebook, and lunch.
+3|Beyond the gate stood a tall palm; beneath it lay a silver shell.
+3|River House opens at dawn, but the garden never really closes.
+3|A note on the desk read, "Please leave the window open."
+3|We visited Pine Bay in June; by August, the paths had changed.
+3|"Is that our boat?" Nora asked, shading her eyes from the sun.
+3|The guide smiled: "Follow the stream until you find the bridge."
+3|First came the wind, then the rain, and finally a clear sky.
+3|On Friday, Sam wrote, "The journey begins at the northern pier."
+3|I remembered the old rule: measure twice, then make the cut.
+3|Under the title "Coastal Notes," Jules sketched a tiny harbor.
+3|"Look closely," said Ada, "and watch how the leaves bend in the wind."
+3|At Lake Rowan, morning fog hides the far shore until noon.
+4|The estuary reveals its intricate channels only when the tide retreats.
+4|Beneath the canopy, scattered sunlight illuminated a network of roots.
+4|A patient observer notices subtle variations in the rhythm of the waves.
+4|Although the forecast promised rain, the expedition continued inland.
+4|The archivist carefully arranged the handwritten journals by their dates.
+4|Across the peninsula, resilient plants flourished in improbable places.
+4|The navigator compared the unfamiliar coastline with a weathered chart.
+4|What appeared to be a distant island was merely a lingering bank of fog.
+4|Reflections on the water distorted the geometry of the wooden pier.
+4|The afternoon conversation wandered from astronomy to local history.
+4|Despite occasional interruptions, the researcher recorded each observation.
+4|A narrow corridor connected the observatory with its sheltered courtyard.
+4|The intricate structure of the shell suggested a remarkably simple pattern.
+4|Beyond the reservoir, a succession of terraces descended toward the valley.
+4|The curator explained how humidity influences the preservation of paper.
+4|Each deliberate movement helped the apprentice establish a steady rhythm.
+5|"Precision," the cartographer observed, "depends on acknowledging uncertainty."
+5|The biologist's hypothesis survived scrutiny; nevertheless, further evidence was required.
+5|At 06:45, the observatory recorded a temperature of 18.7 degrees near the estuary.
+5|An exceptionally intricate mechanism synchronized the instruments without external assistance.
+5|Although initially counterintuitive, the proposed explanation reconciled every observation.
+5|"Reconsider the assumptions," wrote Professor Vale, "before treating the conclusion as definitive."
+5|The expedition's inventory included 24 specimens, 3 notebooks, and a weatherproof chronometer.
+5|Intermittent fluctuations in atmospheric pressure complicated the navigator's calculations.
+5|A survey across the ridge revealed unexpected discontinuities in the limestone formation.
+5|The archivist cross-referenced each annotation before reconstructing the original sequence.
+5|"Could the discrepancy reflect an overlooked variable?" asked the skeptical researcher.
+5|By 19:30, approximately 85 percent of the measurements had been independently verified.
+5|The committee's recommendation balanced ecological resilience with practical accessibility.
+5|Despite the instrument's sensitivity, reproducibility remained the experiment's central challenge.
+5|A succession of carefully calibrated adjustments restored the mechanism's equilibrium.
+5|The manuscript distinguished correlation from causation, emphasizing the limits of inference.
+1|The boat drifts toward the dock.
+1|I leave the book on the table.
+1|We sit in the shade after lunch.
+1|A clear stream flows past the farm.
+1|The road bends around the hill.
+1|She opens the gate for her friend.
+1|The warm sand holds our footprints.
+1|A small lamp lights the room.
+2|We reached the quiet harbor before the last boat left for the island.
+2|A row of empty chairs stood beneath the trees along the garden wall.
+2|The baker opened the window to let the warm air escape from the kitchen.
+2|I folded the map and put it away before we started down the trail.
+2|Fresh rainwater gathered in the shallow bowl beneath the broken pipe.
+2|The afternoon ferry carried a few visitors and a basket of supplies.
+2|A narrow flight of steps led from the village square to the old library.
+2|We waited beside the gate until we heard footsteps coming down the path.
+3|"Bring the blue notebook," said Lena, "and leave the other one here."
+3|At Willow Bay, the guide asked, "Would you prefer the shorter crossing?"
+3|The list was brief: bread, fresh fruit, and enough water for the walk.
+3|"Yes, that is the right path," replied Owen, pointing toward the bridge.
+3|After breakfast, I checked the map; the harbor was closer than we thought.
+3|The door was open, but the note said, "Please wait in the courtyard."
+3|On Monday, the museum will display its oldest collection of coastal maps.
+3|"Take your time," said the carpenter, "and give the glue a chance to set."
+4|The restoration team documented each alteration before repairing the damaged staircase.
+4|A temporary footpath allowed visitors to bypass the section affected by erosion.
+4|The naturalist described how seasonal changes influence the behavior of coastal birds.
+4|An unexpected interruption gave the participants time to reconsider their proposal.
+4|The carefully maintained records revealed a gradual increase in the reservoir's depth.
+4|A sheltered courtyard provided sufficient ventilation without exposing the plants to strong winds.
+4|The illustrator revised the composition after comparing it with the original sketches.
+4|Although the route appeared straightforward, several unmarked junctions required careful attention.
+5|At 14:20, the technician replaced the faulty sensor and repeated all 6 measurements.
+5|"Verify the reference point first," the surveyor advised, "then reassess the discrepancy."
+5|The analysis distinguished short-term variability from a persistent change in the underlying trend.
+5|An inventory of 36 components revealed that 2 essential fittings had been incorrectly labeled.
+5|"The explanation is plausible," she conceded, "but its implications require independent verification."
+5|The revised specification reduced the acceptable deviation from 0.8 to 0.3 millimeters.
+5|Despite contradictory preliminary results, the investigators maintained a consistent verification procedure.
+5|The editor's annotations clarified the distinction between an observation and its interpretation.
+1|The bread is warm from the oven.
+1|My red bike leans on the wall.
+1|We share a bowl of ripe fruit.
+1|A cat sleeps on the blue chair.
+1|The shop opens just after dawn.
+1|I put fresh ink in my pen.
+1|His hat hangs beside the door.
+1|We take the bus into town.
+1|The clock ticks above the stove.
+1|She ties her shoes for the race.
+1|A soft tune plays in the room.
+1|I draw a star on the card.
+1|Our dog brings back the ball.
+1|The train rolls past the park.
+1|We stir the soup with a spoon.
+1|A green kite climbs in the wind.
+1|The keys are in my coat pocket.
+1|She puts the cups on the shelf.
+1|We build a fort out of boxes.
+1|The fresh paint is still wet.
+1|A bell rings at the front desk.
+1|I save a seat for my friend.
+1|He cuts a pear into thin slices.
+1|The cake cools on a wire rack.
+1|We hang our coats by the stairs.
+1|The last bus stops near my house.
+1|A drum keeps time with the song.
+1|I fold the sheet into a plane.
+1|She reads the note out loud.
+1|We play chess after dinner.
+1|The next stop is close to home.
+1|He fills the bowl with warm rice.
+1|I find a coin under the couch.
+1|A new sign hangs above the shop.
+1|We leave our boots by the door.
+1|The lift takes us to the roof.
+1|She adds a pinch of salt.
+1|I pack my lunch in a small bag.
+1|The toy car fits in my hand.
+1|We plant beans in a clay pot.
+2|The repair shop keeps a spare pump beside the rack of bicycles.
+2|I left a clean towel on the bench before heading to the pool.
+2|We chose a table by the window so we could watch the trains.
+2|The bus driver waited while an older passenger found a seat.
+2|She wrapped the gift in brown paper and tied it with string.
+2|Our team moved the heavy desk away from the freshly painted wall.
+2|The little bakery sells its last loaf just before closing time.
+2|He placed a bowl beneath the tap to catch the slow drip.
+2|We heard the orchestra warming up behind the closed stage doors.
+2|A stack of empty baskets stood beside the entrance to the market.
+2|I took the stairs because the lift was being repaired that morning.
+2|The recipe calls for ripe tomatoes and a handful of fresh basil.
+2|She checked the train schedule before buying a ticket at the station.
+2|We cleared the dining table to make room for a large jigsaw puzzle.
+2|The kitten chased a scrap of paper across the kitchen floor.
+2|A small crowd gathered to watch the artist finish the mural.
+2|He sharpened each pencil before starting work on the new sketch.
+2|I saved the last slice of apple pie for my sister.
+2|We put the spare blankets in a box beneath the guest bed.
+2|The first tram of the day was almost empty when it arrived.
+2|She pinned the shopping list to the fridge with a bright red magnet.
+2|A mechanic showed us how to check the pressure in each tire.
+2|I moved the lamp closer so the tiny print would be easier to read.
+2|We listened to a record while the onions softened in the pan.
+2|The stage crew tested every light before the audience came inside.
+2|He kept a notebook full of ideas for toys he wanted to build.
+2|A friendly librarian helped us find a book about making kites.
+2|She opened the parcel carefully to avoid tearing the paper inside.
+2|We spent the rainy afternoon sorting old photos into albums.
+2|The coach set out a row of cones along the edge of the court.
+2|I borrowed a ladder to reach the box on the highest shelf.
+2|The new cafe serves breakfast until the clock above the door strikes noon.
+2|She slipped a handwritten card between the pages of the borrowed book.
+2|We could smell fresh bread long before we reached the corner shop.
+2|The tailor marked the fabric with chalk before making the first cut.
+2|He carried the empty flowerpots upstairs one careful step at a time.
+2|I found the missing game piece beneath a cushion on the sofa.
+2|We tested the paper glider in the hallway before taking it outside.
+2|The whole class stayed behind to help put the chairs away.
+2|She turned the radio down when someone knocked at the front door.
+3|"Keep the receipt," said Priya, "in case the lamp needs replacing."
+3|The cafe offered three soups: tomato, lentil, and roasted pumpkin.
+3|On Thursday, the school choir will rehearse in the smaller hall.
+3|I checked the label twice; the parcel was meant for Maple Street.
+3|"Your turn," said Theo, sliding the chessboard across the table.
+3|At Central Station, the departure board changed just before noon.
+3|The plan was simple: buy the fabric, cut the shapes, and sew the edges.
+3|"Does this bus stop at the museum?" asked a visitor in a yellow coat.
+3|By Saturday, the repair shop had fixed every bicycle in the queue.
+3|The invitation said, "Bring a snack and your favorite board game."
+3|I wanted to bake bread; my brother suggested making pizza instead.
+3|"Try a softer pencil," the tutor said, pointing at the shaded edge.
+3|At the corner of King Street, a musician played an old folk song.
+3|The notice read: Workshop Full, Extra Session Next Wednesday.
+3|"That is the missing piece!" shouted Eva, reaching under the sofa.
+3|We packed lightly: two shirts, a spare jacket, and a pair of boots.
+3|On Sunday, the small cinema screens a classic comedy before lunch.
+3|"Let it cool first," said Ben, setting the tray on a wooden board.
+3|The printer stopped halfway through; someone had forgotten the paper.
+3|At noon, the bell rang twice, and the workshop doors swung open.
+3|"Which shade of blue?" asked the painter, holding up two samples.
+3|I wrote a reminder: return the tools before the shop closes.
+3|The ticket said Row C, but we had been standing beside Row G.
+3|"A little more flour," she suggested, "and the dough will hold."
+3|Before Monday, we need to check the lights and hang the new sign.
+3|The menu was handwritten; a tiny star marked the daily special.
+3|"Mind the wet paint," called the caretaker from the end of the hall.
+3|We tried the spare key; to our relief, the stubborn lock turned.
+3|At City Hall, volunteers sorted coats, scarves, and pairs of gloves.
+3|"Not too tight," said the instructor, checking the knot in the rope.
+3|The package contained a surprise: a model train in perfect condition.
+3|On Tuesday, I finally finished the scarf I had started in January.
+3|"You can borrow mine," said Rosa, handing over a set of brushes.
+3|The museum closes early today; the staff are preparing a new exhibit.
+3|Our route crossed Market Square, passed the clock tower, and turned east.
+3|"Start with the corners," he advised, opening the box of puzzle pieces.
+3|At the rehearsal, every singer received a revised copy of the score.
+3|The task needed patience: loosen the screw, lift the cover, and wait.
+3|"Is the oven ready?" she asked, checking the time on the wall clock.
+3|By Friday, the empty storefront had become a bright little bookshop.
+4|The apprentice organized the replacement parts according to their intended purpose.
+4|A carefully positioned mirror directed natural light into the narrow entrance hall.
+4|The conductor paused the rehearsal to explain a subtle change in the tempo.
+4|Several volunteers collaborated on restoring the neglected community playground.
+4|The architect preserved the original brickwork while improving access to the building.
+4|An illustrated instruction booklet accompanied the collection of unfamiliar tools.
+4|The technician inspected the connections before reconnecting the damaged amplifier.
+4|A generous donation allowed the library to expand its collection of graphic novels.
+4|The exhibition traced the development of photography through a series of portraits.
+4|After considerable practice, the drummer could maintain the rhythm without assistance.
+4|The ceramic bowls displayed slight differences that reflected their handmade origins.
+4|An adjustable workbench made the workshop accessible to a wider range of visitors.
+4|The researcher summarized the findings without including unnecessary technical details.
+4|A damaged component interrupted the broadcast shortly before the scheduled interview.
+4|The designer experimented with contrasting textures to improve the finished composition.
+4|The committee postponed its decision until every participant had reviewed the proposal.
+4|A handwritten dedication on the first page identified the book's original owner.
+4|The instructor demonstrated how consistent pressure produces a smoother printed surface.
+4|A temporary exhibition occupied the space previously reserved for the permanent collection.
+4|The engineer recommended a simpler arrangement that required fewer replacement parts.
+4|Each musician contributed a distinctive phrase to the gradually evolving melody.
+4|The carpenter selected seasoned timber to reduce the possibility of future distortion.
+4|An unusually detailed illustration revealed the internal structure of the mechanical clock.
+4|The translation preserved the humor of the original without copying its unusual phrasing.
+4|A protective coating prevented moisture from damaging the exposed metal framework.
+4|The restoration uncovered decorative patterns beneath several layers of ordinary paint.
+4|The organizer prepared alternative activities in case the outdoor performance was canceled.
+4|A sequence of small improvements eventually resolved the workshop's persistent storage problem.
+4|The photographer adjusted the exposure to capture the details inside the darkened theatre.
+4|The laboratory introduced a clearer labeling system to prevent samples from being confused.
+4|An experienced technician recognized the unusual vibration before the motor overheated.
+4|The performance combined traditional instruments with an unexpectedly modern arrangement.
+4|The librarian recommended a biography that offered a different perspective on the inventor.
+4|A carefully balanced mixture produced a glaze with a distinctive copper finish.
+4|The audience remained silent while the pianist allowed the final chord to fade.
+4|The revised timetable provided additional time for passengers changing between platforms.
+4|The illustrator used a limited palette to create a surprisingly expressive character.
+4|A detailed inventory helped the volunteers distribute equipment between the classrooms.
+4|The workshop encouraged participants to repair familiar objects rather than discard them.
+4|The curator placed the delicate miniature inside a specially constructed display case.
+5|At 08:15, the conservator photographed all 12 fragments before attempting reconstruction.
+5|"Document the exception," the analyst insisted, "rather than silently altering the original data."
+5|The prototype's efficiency increased by 14 percent after the ventilation system was redesigned.
+5|An independent evaluation identified inconsistencies between the published specification and the implementation.
+5|"Separate the evidence from the assumption," the lecturer advised, "then examine the remaining uncertainty."
+5|The restoration required 48 individually numbered components, each with a slightly different profile.
+5|A disproportionately large reduction in friction explained the mechanism's unexpected improvement.
+5|The preliminary questionnaire distinguished occasional inconvenience from persistent accessibility barriers.
+5|At 17:40, the control panel registered 3 consecutive warnings before the backup system engaged.
+5|"The result is reproducible," she explained, "provided that the initial conditions remain unchanged."
+5|The manufacturer's documentation specified a maximum clearance of 2.5 millimeters between the plates.
+5|A comprehensive bibliography accompanied the exhibition's account of early experimental photography.
+5|Although the approximation simplified the calculation, its limitations required explicit acknowledgment.
+5|The engineer's revised configuration redistributed the load without compromising structural stability.
+5|"Check the serial number first," the technician said, "because these 2 models use different adapters."
+5|By 11:25, the volunteers had cataloged 96 photographs and identified approximately half of their subjects.
+5|The investigation attributed the intermittent malfunction to a deteriorating electrical connection.
+5|A comparison of 8 recordings revealed subtle discrepancies in the instrument's frequency response.
+5|The curator's interpretation connected the unfamiliar technique with a well-documented regional tradition.
+5|"A plausible narrative is insufficient," the historian noted, "without independently corroborated evidence."
+5|The revised procedure required authorization before any irreversible modification to the collection.
+5|At 09:50, the instrument completed its calibration sequence with a deviation below 0.2 percent.
+5|The committee prioritized compatibility, maintainability, and clear documentation over additional features.
+5|An unexpectedly asymmetric distribution prompted the statistician to reconsider the sampling procedure.
+5|"Preserve the original annotation," the archivist requested, "and record your correction separately."
+5|The acquisition included 32 architectural drawings, 7 notebooks, and an incomplete correspondence archive.
+5|The specification distinguished mandatory requirements from recommendations intended for unusual conditions.
+5|Despite extensive preparation, the reconstruction depended on several necessarily tentative assumptions.
+5|A replacement bearing reduced the measured vibration from 4.6 to 1.1 millimeters per second.
+5|"Repeat the measurement tomorrow," the researcher suggested, "to rule out a temporary environmental effect."
+5|The software's validation routine rejected incomplete entries without discarding the user's previous work.
+5|An interdisciplinary team evaluated the proposal's technical feasibility and long-term maintenance costs.
+5|At 16:05, the exhibition's lighting system switched automatically to its reduced-power configuration.
+5|The historian distinguished the document's approximate composition date from its later publication date.
+5|"We need a clearer definition," the editor remarked, "before these 3 categories can be compared fairly."
+5|The installation's modular construction allowed damaged sections to be replaced without dismantling the whole.
+5|A sequence of controlled comparisons eliminated several competing explanations for the unusual observation.
+5|The agreement allocated 25 percent of the available funding to preventative maintenance and staff training.
+5|The conservator recommended a reversible intervention that would preserve the object's historical integrity.
+5|"Record the uncertainty as well," the surveyor added, "because a precise number can still be misleading."

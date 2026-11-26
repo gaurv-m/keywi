@@ -1,0 +1,9 @@
+#!/bin/sh
+# Always launch the current workspace binary, from any working directory.
+set -eu
+keywi_root=$(CDPATH= cd -P "$(dirname "$0")" && pwd)
+if [ ! -x "$keywi_root/bin/keywi" ]; then
+  printf 'keywi: run make build in %s first\n' "$keywi_root" >&2
+  exit 1
+fi
+exec "$keywi_root/bin/keywi" "$@"
